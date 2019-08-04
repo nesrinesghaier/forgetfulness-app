@@ -1,1 +1,30 @@
 
+:root {
+  --ion-color-gold: #ffd700;
+  --ion-color-gold-rgb: 255, 215, 0;
+  --ion-color-gold-contrast: #000000;
+  --ion-color-gold-contrast-rgb: 0, 0, 0;
+  --ion-color-gold-shade: #e0bd00;
+  --ion-color-gold-tint: #ffdb1a;
+}
+
+.ion-color-gold {
+  --ion-color-base: var(--ion-color-gold) !important;
+  --ion-color-base-rgb: var(--ion-color-gold-rgb) !important;
+  --ion-color-contrast: var(--ion-color-gold-contrast) !important;
+  --ion-color-contrast-rgb: var(--ion-color-gold-contrast-rgb) !important;
+  --ion-color-shade: var(--ion-color-gold-shade) !important;
+  --ion-color-tint: var(--ion-color-gold-tint) !important;
+}
+
+ion-icon {
+  font-size: 60px !important;
+}
+
+ion-content {
+  --background: linear-gradient(rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.8)), url('/assets/background.jpg') repeat;
+  font-family: 'Aref Ruqaa', serif;
+}
+h3 {
+  font-family: 'Raleway', serif;
+}
