@@ -23,3 +23,36 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+@font-face {
+  font-family: Tharawat;
+  src: url(assets/THARWAT-EMARA-DEWANI.otf) format("opentype");
+}
+@font-face {
+  font-family: dima;
+  src: url(assets/DimaNaskh.ttf) format("opentype");
+}
+@font-face {
+  font-family: dimaThulth;
+  src: url(assets/DimaThulth2.ttf) format("opentype");
+}
+@font-face {
+  font-family: test;
+  src: url(assets/testFont.ttf) format("opentype");
+}
+@font-face {
+  font-family: Ghalam;
+  src: url(assets/Ghalam.otf) format("opentype");
+}
+@font-face {
+  font-family: dimaFont;
+  src: url(assets/DimaFont.ttf) format("opentype");
+}
+
+@font-face {
+  font-family: BDavat;
+  src: url(assets/BDavat.ttf) format("opentype");
+}
+@font-face {
+  font-family: hand;
+  src: url(assets/handWriting.otf) format("opentype");
+}
